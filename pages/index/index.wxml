@@ -13,4 +13,8 @@
   <view wx:for="{{array}}" wx:for-index="idx" wx:for-item="itm">
     {{idx}}:{{itm.message}}
   </view>
+  <block wx:for="{{[1, 2, 3]}}">
+    <view>{{index}}</view>
+    <view>{{item}}</view>
+  </block>
 </view>
